@@ -16,6 +16,6 @@ class Order(models.Model):
 class Table(models.Model):
     name = models.IntegerField()
     number_of_people = models.FloatField()
-    zone = models.CharField(max_length=125)
+    zone = models.CharField(max_length=124)
     
     
